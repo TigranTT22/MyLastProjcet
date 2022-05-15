@@ -1,0 +1,16 @@
+
+.footer-section-card div:last-child p {
+    font-size: 13px;
+}
+
+.footer-section-card>div:last-child {
+    font-size: 11px;
+}
+
+.footer-footer {
+    font-size: 15px;
+}
+
+.footer-navbar-list ul li a{
+    width: 140px;
+}

@@ -1,0 +1,167 @@
+.navbar-list-flag {
+    display: none;
+}
+.navbar-flag{
+    display: block;   
+}
+.navbar-flag a i{
+    font-size: 50px;
+}
+
+.header-navbar {
+    width: 100%;
+}
+
+.header-navbar-content {
+    position: relative;
+}
+
+.navbar-list-flag {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-list-flag ul {
+    flex-direction: column;
+}
+
+.navbar-list-flag ul li a {
+    width: 100%;
+}
+
+
+.header-navbar-content:hover .navbar-list-flag {
+    display: block;
+}
+.header-navbar-content:active .navbar-list-flag {
+    display: block;
+}
+
+.main div h1{
+    font-size: 30px;
+}
+.main div p{
+    font-size: 15px;
+}
+.cards{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 50%;
+}
+
+.works-cards{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.works-cards .work-card{
+    width: 100%;
+}
+.aside-cards {
+    display: block;
+}
+
+.services-cards .services-card {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+.services-cards .services-card {
+    text-align: start;
+}
+
+.services-card:nth-child(n) {
+    display: flex;
+}
+
+.services-card>div:last-child div:first-child {
+    margin: 0;
+}
+
+.services-cards .services-card:nth-child(n) {
+    margin-bottom: 20px;
+}
+
+.test-admins .test-admin-card:nth-child(n):not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.test-admin-card {
+    width: max-content;
+}
+
+.from-cards {
+    display: block;
+}
+
+.from-card {
+    width: 100%;
+}
+
+.from-cards {
+    display: block;
+}
+
+.from-cards .from-card:not(:last-child) {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.from-cards .from-card:nth-child(n):not(:first-child)>div img{
+    display: none;
+}
+
+.footer-navbar-list ul li a{
+    width: 45px;
+}
+
+.footer-section-card>div img {
+    width: 120px;
+}
+
+.footer-section-card div:last-child p {
+    font-size: 10px;
+}
+
+.footer-section-card>div:last-child {
+    font-size: 8px;
+}
+
+.footer-section-card.icons>div:last-child div {
+    width: 15%;
+}
+
+.works-cards .work-card:nth-child(n) {
+    margin: 0;
+}
+
+.works-cards .work-card:nth-child(n){
+    margin: 0;
+}
+
+.works-cards .work-card:nth-child(n):not(:last-child){
+    margin-bottom: 20px;
+}
+
+.works-cards .work-card:nth-child() {
+    margin: 0;
+}
+
+.footer-section{
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-section-card:nth-child(n){
+    width: 100%;
+    margin: 0;
+}
+.footer-footer {
+    font-size: 5px;
+}
